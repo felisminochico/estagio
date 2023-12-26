@@ -1,7 +1,35 @@
 @charset "UTF-8";
 
-body{
-    color: blue;
+:root{
+    --font-corpo: 'corpo';
+    --cor1-dia: #103778;
+    --cor2-dia: #0593A2;
+    --cor3-dia: #E3371E;
+    --cor4-dia: #FF7A48;
+    --cor5-dia: #151F30;
+}
+
+/*Tipos de fontes e Paleta de cores ao anoitecer. */
+:root{
+    --font-corpo: 'corpo';
+    --cor0-noite: #012E40;
+    --cor1-noite: #024959;
+    --cor2-noite: #026773;
+    --cor3-noite: #3CA6A6;
+    --cor4-noite: #F2E3D5;
+}
+
+header > h1{
+    color: var(--cor1-dia);
+}
+
+main::after{
+    color: red;
+    content: 'Este conteúdo foi impreenso através do Site: felisminochico.github.io/estagio.';
+}
+
+main > article > h1{
+    color: var(--cor4-dia);
 }
 
 img{
@@ -25,4 +53,8 @@ main > article > div.video-portrait-unico > video, source{
 
 main > article > div.video-landscape > video, source{
     display: none;
+}
+
+footer > p{
+    color: var(--cor1-dia);
 }
