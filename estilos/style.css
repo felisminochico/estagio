@@ -1,16 +1,23 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'corpo';
+    src: url(../fontes/Roboto/RobotoCondensed-Black.ttf) format(truetype);
+}
+
 /*Tipos de fontes e Paleta de cores ao amanhecer. */
 :root{
-    --cor0-dia: #2885C7;
-    --cor1-dia: #396B8F;
-    --cor2-dia: #0092FA;
-    --cor3-dia: #3A5161;
-    --cor4-dia: #31383D;
+    --font-corpo: 'corpo';
+    --cor1-dia: #103778;
+    --cor2-dia: #0593A2;
+    --cor3-dia: #E3371E;
+    --cor4-dia: #FF7A48;
+    --cor5-dia: #151F30;
 }
 
 /*Tipos de fontes e Paleta de cores ao anoitecer. */
 :root{
+    --font-corpo: 'corpo';
     --cor0-noite: #012E40;
     --cor1-noite: #024959;
     --cor2-noite: #026773;
@@ -24,6 +31,14 @@
     padding: 0px;
 }
 
+body{
+    background-color: var(--cor5-dia);
+}
+
+header{
+    padding: 40px 10px;
+}
+
 header > h1{
     color: white;
     font-size: 1.7em;
@@ -35,16 +50,19 @@ main, article{
 }
 
 main > article{
+    font-family: 'corpo';
     padding: 0px 12px;
 }
 
 main > article > h1{
+    color: var(--cor1-dia);
     font-size: 1.7em;
     padding: 24px 0px 17px 0px;
     text-align: center;
 }
 
 main > article > h2{
+    color: var(--cor2-dia);
     font-size: 1.5em;
     padding: 5px 0px 15px 0px;
     text-align: center;
@@ -64,4 +82,11 @@ img{
     display: none;
     margin: auto;
     width: 90%;
+}
+
+footer{
+    background-color: var(--cor1-dia);
+    color: white;
+    text-align: center;
+    padding: 17px 12px;
 }
