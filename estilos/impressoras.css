@@ -3,3 +3,26 @@
 body{
     color: blue;
 }
+
+img{
+    border-radius: 10px;
+    display: block;
+    margin: 18px auto;
+    width: 90%;
+}
+
+img.unico{
+    height: 400px;
+}
+
+main > article > div.video-portrait > video, source{
+    display: none;
+}
+
+main > article > div.video-portrait-unico > video, source{
+    display: none;
+}
+
+main > article > div.video-landscape > video, source{
+    display: none;
+}

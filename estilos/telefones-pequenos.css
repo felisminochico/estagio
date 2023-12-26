@@ -3,3 +3,31 @@
 body{
     background-color: gray;
 }
+
+main > article > div.video-portrait{
+    /* background-color: gray; */
+    height: 450px;
+    margin: auto;
+    position: relative;
+    max-width: 350px;
+}
+
+main > article > div.video-portrait > video, source{
+    border-radius: 10px;
+    display: block;
+    height: 420px;
+    margin: 14px auto 0px auto;
+    max-width: 350px;
+}
+
+main > article > div.video-portrait-unico > video, source{
+    border-radius: 10px;
+    display: block;
+    height: 420px;
+    margin: 14px auto 20px auto;
+    max-width: 350px;
+}
+
+main > article > div.video-landscape > video, source{
+    display: none;
+}
