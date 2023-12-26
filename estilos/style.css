@@ -1,5 +1,23 @@
 @charset "UTF-8";
 
+/*Tipos de fontes e Paleta de cores ao amanhecer. */
+:root{
+    --cor0-dia: #2885C7;
+    --cor1-dia: #396B8F;
+    --cor2-dia: #0092FA;
+    --cor3-dia: #3A5161;
+    --cor4-dia: #31383D;
+}
+
+/*Tipos de fontes e Paleta de cores ao anoitecer. */
+:root{
+    --cor0-noite: #012E40;
+    --cor1-noite: #024959;
+    --cor2-noite: #026773;
+    --cor3-noite: #3CA6A6;
+    --cor4-noite: #F2E3D5;
+}
+
 *{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
