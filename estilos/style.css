@@ -90,3 +90,9 @@ footer{
     text-align: center;
     padding: 17px 12px;
 }
+
+footer > p > strong > a{
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+}
