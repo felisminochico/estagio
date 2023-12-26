@@ -1,5 +1,41 @@
 @charset "UTF-8";
 
-body{
-    background-color: rgb(119, 194, 181);
+/*Tipos de fontes e Paleta de cores ao amanhecer. */
+:root{
+    --font-corpo: 'corpo';
+    --cor1-dia: #103778;
+    --cor2-dia: #0593A2;
+    --cor3-dia: #E3371E;
+    --cor4-dia: #FF7A48;
+    --cor5-dia: #151F30;
+}
+
+/*Tipos de fontes e Paleta de cores ao anoitecer. */
+:root{
+    --font-corpo: 'corpo';
+    --cor0-noite: #012E40;
+    --cor1-noite: #024959;
+    --cor2-noite: #026773;
+    --cor3-noite: #3CA6A6;
+    --cor4-noite: #F2E3D5;
+}
+
+header > h1{
+    font-size: 2.4em;
+}
+
+main > article > h1{
+    font-size: 2.4em;
+}
+
+main > article > h2{
+    font-size: 2em;
+}
+
+main > article > h3{
+    font-size: 1.6em;
+}
+
+footer > p, main > article > p{
+    font-size: 1.2em;
 }
