@@ -26,19 +26,19 @@ main, article{
 }
 
 header > h1{
-    font-size: 2.2em;
+    font-size: 2em;
 }
 
 main > article > h1{
-    font-size: 2.2em;
+    font-size: 2em;
 }
 
 main > article > h2{
-    font-size: 1.9em;
+    font-size: 1.7em;
 }
 
 main > article > h3{
-    font-size: 1.6em;
+    font-size: 1.46em;
 }
 
 footer > p, main > article > p{

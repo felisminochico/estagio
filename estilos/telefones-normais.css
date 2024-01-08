@@ -47,10 +47,6 @@ main > article > h3{
     font-size: 1.3em;
 }
 
-footer > p, main > article > p{
-    font-size: 1em;
-}
-
 main > article > div.video-portrait-unico > video, source{
     border-radius: 10px;
     display: block;
@@ -75,4 +71,8 @@ footer{
     color: white;
     text-align: center;
     padding: 17px 12px;
+}
+
+footer > p, main > article > p{
+    font-size: 1em;
 }

@@ -49,3 +49,18 @@ main > article > div.video-portrait-unico > video, source{
 main > article > div.video-landscape > video, source{
     display: none;
 }
+
+main > article > div.video-portrait-unico-2{
+    height: 220px;
+    margin: 0px auto 26px auto;
+    position: relative;
+    max-width: 350px; 
+}
+
+main > article > div.video-portrait-unico-2 > video, source{
+    border-radius: 10px;
+    display: block;
+    height: 200px;
+    margin: 14px auto 20px auto;
+    max-width: 100%;
+}
