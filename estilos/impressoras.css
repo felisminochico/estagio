@@ -57,4 +57,11 @@ main > article > div.video-landscape > video, source{
 
 footer > p{
     color: var(--cor1-dia);
+    font-weight: bold;
 }
+
+footer > p > strong > a{
+    color: var(--cor1-dia);
+    font-weight: bold;
+    text-decoration: none;
+} 
